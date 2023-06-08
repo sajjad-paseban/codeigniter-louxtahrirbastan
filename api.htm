@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const PORT = 8080;
+        const IP = '109.125.143.170';
+        const REQUESTED_URL = '/api/invoices/';
+        const SERIAL = '10111e9f';
+        const INTEGRATION_ID = SERIAL.slice(0,4);
+        const ARBITRAY_CODE = 'FADBE678-17FF-4DAF-903D-3B83F41AABD8';
+        const ENC_ARBITRAY_CODE = 'Xr3OIRMciNCTUA8XUZbAIkWBxpvlY4tQJuds/UL+L6jpiiizjxL7L+buwWLvxWAgcbxltRJSWdOGkMTKjxn4hA==';
+        const GENERATION_VERSION = 101;
+        const TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjM4LCJwaWQiOm51bGwsInV2ZXIiOjUsImR1cGlkIjoyMCwiZHVwdmVyIjoyfQ.Ho2EWYwQ8UTDC-cUWAck7xMUx2pqmF41GOsZ7lFI1ZE';
+        
+        fetch('http://109.125.143.170:8080/api/Invoices/',{
+            method: 'GET',
+            mode: 'cors',
+            headers:{
+                'IntegrationID' : INTEGRATION_ID,
+                'ArbitraryCode' : ARBITRAY_CODE,
+                'EncArbitraryCode' : ENC_ARBITRAY_CODE,
+                'GenerationVersion' : GENERATION_VERSION,
+                'Authorization' : `Bearer ${TOKEN}`
+            }
+        })
+        .then(res => console.log(res))
+    </script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+@font-face {
+	font-family: "IranSans";
+	src: url('IranianSans.ttf');
+}
+*{
+	font-family: "IranSans";
+}
+li.nav-item{
+	width: auto;
+	margin-left: 10px;
+}
+li.nav-item a.nav-link{
+	display: inline-block;
+}
+
+li.nav-item img{
+	transition: all 5s;
+	cursor: pointer;
+}
+li.nav-item:hover img{
+	transform: rotate(360deg);
+}
+@font-face {
+	font-family: mainfont;
+	src: url("B-NAZANIN.TTF");
+}
+@font-face {
+	font-family: shadi;
+	src: url("SSHADI.TTF");
+}
+@font-face {
+	font-family: kamran;
+	src: url("SKAMRANO.TTF");
+}
+header{
+	font-family: mainfont;
+}
+
+
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}

@@ -1,0 +1,8 @@
+[02-Jan-2021 06:28:00 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'louxtahr_sajad'@'static.120.102.243.136.clients.your-server.de' (using password: YES) in /home/louxtahr/public_html/test.php on line 3
+[02-Jan-2021 06:32:42 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'louxtahr'@'static.120.102.243.136.clients.your-server.de' (using password: YES) in /home/louxtahr/public_html/test.php on line 3
+[02-Jan-2021 06:33:11 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'louxtahr'@'localhost' (using password: YES) in /home/louxtahr/public_html/test.php on line 3
+[02-Jan-2021 06:38:15 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'louxtahr'@'localhost' (using password: YES) in /home/louxtahr/public_html/test.php on line 3
+[02-Jan-2021 06:39:04 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/louxtahr/public_html/test.php on line 2
+[02-Jan-2021 06:40:23 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'louxtahr_sajad'@'localhost' (using password: YES) in /home/louxtahr/public_html/test.php on line 2
+[02-Jan-2021 06:41:20 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'louxtahr_sajad'@'static.120.102.243.136.clients.your-server.de' (using password: YES) in /home/louxtahr/public_html/test.php on line 2
+[16-Jul-2022 08:08:07 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 9732760 bytes) in /home/louxtahr/public_html/system/core/Output.php on line 198
